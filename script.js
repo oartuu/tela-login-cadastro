@@ -17,9 +17,9 @@ function logar() {
    var senha = document.getElementById('senha').value;
    var confirmarSenha = document.getElementById('confirmar-senha').value;
    if (senha != confirmarSenha){
-      alert('as senhas não são iguais')
+      alert('as senhas não são iguais');
    }else{
-      alert('cadastrado com sucesso')
+      alert('cadastrado com sucesso');
    }
 
 }
