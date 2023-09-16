@@ -1,0 +1,110 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;700&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-esquerda{
+    width: 74%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alternativo{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.alternativo > h1{
+    color: #d877ff;
+    font-size: 40px;
+    margin: 10px 0;
+}
+.alternativo > button{
+    width: 40%;
+    padding: 16px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #a200ff;
+    box-shadow: 0 10px 20px -12px #a200ff52;
+    cursor: pointer;
+}
+.login-direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.login > h1{
+    color: #c300ff;
+    font-weight: 700;
+}
+.texto{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.texto > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    background: #514869;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.logar{
+    width: 40%;
+    padding: 16px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #a200ff;
+    box-shadow: 0 10px 20px -12px #a200ff52;
+    cursor: pointer;
+}
