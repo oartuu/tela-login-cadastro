@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>login</title>
+</head>
+<body>
+    <main>
+        <div class="login-esquerda">
+            <div class="alternativo">
+                <h1>Faça login e aproveite nosso conteúdo</h1>
+                <button id="cadastrar" onclick="cadastro(); return false">CADASTRAR</button>
+            </div>
+        </div>
+        <div class="login-direita">
+            <div class="login">
+                <h1>LOGIN</h1>
+                <div class="texto">
+                    <input type="text" placeholder="login" id="login">
+                </div>
+                    <div class="texto">
+                    <input type="password" placeholder="senha" id="senha">
+                </div>
+                <input type="submit" class="logar" onclick="logar(); return false">
+            </div>
+        </div>
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
