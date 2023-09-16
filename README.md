@@ -1,5 +1,5 @@
 # tela-login-cadastro
-exemplo de uma tela de login e cadastro, com interações com JavaScript para validação de login e criação de cadasto 
+exemplo de uma tela de login e cadastro, com interações com JavaScript para validação de login e criação de um cadasto 
 ##
-#ATENÇÃO
+# ATENÇÃO!
 esse código não foi integrado à um banco de dados!!
